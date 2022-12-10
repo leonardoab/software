@@ -8,14 +8,25 @@ namespace Software.Domain.Software
 {
     public class Consulta : Entity<Guid>
     {
-        
-        public Fornecedor Fornecedor { get; set; }
-        public Contrato? Contrato { get; set; }
-        public PlanoTarifacao PlanoTarifacao { get; set; }
+        public Consulta(Fornecedor fornecedor)
+        {
+            if (fornecedor != null)
+            {
+                this.Fornecedor = fornecedor;
+                Usuarios = new List<Usuario>();
+            }
+            else
+            {
+                throw new ArgumentNullException("Uma consulta tem que ter um fornecedor");
 
-        // tem q ter um plano de tarifacao
-        // ter q ter um fornecedor
-        // pode ter um contrato
+            }
+        }
+
+        private Fornecedor Fornecedor { get; set; }
+        
+       
+
+
 
 
         public IList<Usuario> Usuarios { get; set; }

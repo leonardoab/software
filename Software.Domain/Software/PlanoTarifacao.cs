@@ -12,7 +12,7 @@ namespace Software.Domain.Software
         public DateTime? DataVigencia { get; set; }
 
 
-        public IList<Consulta> Consultas { get; set; }
+        public IList<Operacao> Operacoes { get; set; }
 
     }
 }

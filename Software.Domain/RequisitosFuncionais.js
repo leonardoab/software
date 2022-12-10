@@ -1,8 +1,8 @@
-﻿- Cadastro de Cliente
-- Cadastro de Usuario
-- Cadastro de Contrato
-- Cadastro de Fornecedor
-- Cadastro de Plano Tarifacao
+﻿- Manter de Cliente
+- Manter de Usuario
+- Manter de Contrato
+- Manter de Fornecedor
+- Manter de Plano Tarifacao
 
 - Realizar Consultas
 - Realizar Operacoes

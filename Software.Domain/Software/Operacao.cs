@@ -10,6 +10,7 @@ namespace Software.Domain.Software
     {
         public string Descricao { get; set; }
 
-        public IList<Usuario> Usuarios { get; set; }
+
+        
     }
 }
