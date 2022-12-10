@@ -10,6 +10,6 @@ namespace Software.Domain.Software.ValueObject
     {
         public string Codigo { get; set; }
 
-        // aplicar criptografica e regras de formacao
+        // aplicar criptografica e regras de formacao de senha forte
     }
 }

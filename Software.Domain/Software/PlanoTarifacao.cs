@@ -11,5 +11,8 @@ namespace Software.Domain.Software
         public float Valor;
         public DateTime? DataVigencia { get; set; }
 
+
+        public IList<Consulta> Consultas { get; set; }
+
     }
 }

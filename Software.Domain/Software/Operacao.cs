@@ -9,5 +9,7 @@ namespace Software.Domain.Software
     public class Operacao : Entity<Guid>
     {
         public string Descricao { get; set; }
+
+        public IList<Usuario> Usuarios { get; set; }
     }
 }

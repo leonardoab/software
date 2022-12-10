@@ -13,9 +13,11 @@ namespace Software.Domain.Software
         public Senha Senha { get; set; }
         public bool Administrador { get; set; }
 
+        //so pode ter uma adminitrador por cliente
+
 
         public IList<Consulta> Consultas { get; set; }
-        public IList<Operacao> Operacao { get; set; }
+        public IList<Operacao> Operacoes { get; set; }
         public IList<HistoricoOperacao> HistoricoOperacao { get; set; }
     }
 }
