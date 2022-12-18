@@ -11,7 +11,7 @@ Excluir Cliente (Itens Referenciados: - 4 - Simples)
 
 ALI: Cliente (Simples)
 
-ALE : Usuario (Simples)
+AIE : Usuario (Simples)
 
 4 Simples x 3
 ALI: 1 Simples x 7
@@ -36,7 +36,7 @@ Excluir Usuario (Itens Referenciados: - 3 - Simples)
 
 ALI: Usuario (Simples)
 
-ALE : Cliente (Simples)
+AIE : Cliente (Simples)
 
 4 Simples x 3
 ALI: 1 Simples x 7
@@ -139,5 +139,10 @@ Somente com valor itens 7:4 Pontos e 12: 1 Ponto dos 14 itens
 Fator de Ajuste (FA) = 0,65 + (0.01 * NI) => 0.65 + 0.05 = 0.7
 
 PFA: 17 * 0.7 =~ 12 pontos
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL: PFA 85 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
