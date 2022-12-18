@@ -1,0 +1,143 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Manter de Cliente
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Entradas Externas: 
+
+Castrar Cliente(Itens Referenciados: - 4 - Simples), 
+Consultar Cliente (Itens Referenciados: - 4 - Simples),  
+Editar Cliente (Itens Referenciados:  - 4 - Simples),
+Excluir Cliente (Itens Referenciados: - 4 - Simples)
+
+ALI: Cliente (Simples)
+
+ALE : Usuario (Simples)
+
+4 Simples x 3
+ALI: 1 Simples x 7
+AIE: 1 Simples x 5
+
+PFB: 24 pontos
+
+Somente com valor itens 7:4 Pontos e 12: 1 Ponto dos 14 itens
+
+Fator de Ajuste (FA) = 0,65 + (0.01 * NI) => 0.65 + 0.05 = 0.7
+
+PFA: 24 * 0.7 =~ 17 pontos
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Manter de Usuario
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Castrar Usuario(Itens Referenciados: - 3 - Simples), 
+Consultar Usuario (Itens Referenciados: - 3 - Simples),  
+Editar Usuario (Itens Referenciados:  - 3 - Simples),
+Excluir Usuario (Itens Referenciados: - 3 - Simples)
+
+ALI: Usuario (Simples)
+
+ALE : Cliente (Simples)
+
+4 Simples x 3
+ALI: 1 Simples x 7
+AIE: 1 Simples x 5
+
+PFB: 24 pontos
+
+Somente com valor itens 7:4 Pontos e 12: 1 Ponto dos 14 itens
+
+Fator de Ajuste (FA) = 0,65 + (0.01 * NI) => 0.65 + 0.05 = 0.7
+
+PFA: 24 * 0.7 =~ 17 pontos
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Manter de Contrato
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Castrar Contrato(Itens Referenciados: - 2 - Simples), 
+Consultar Contrato (Itens Referenciados: - 2 - Simples),  
+Editar Contrato (Itens Referenciados:  - 2 - Simples),
+Excluir Contrato (Itens Referenciados: - 2 - Simples)
+
+ALI: Contrato (Simples)
+
+4 Simples x 3
+ALI: 1 Simples x 7
+
+
+PFB: 19 pontos
+
+Somente com valor itens 7:4 Pontos e 12: 1 Ponto dos 14 itens
+
+Fator de Ajuste (FA) = 0,65 + (0.01 * NI) => 0.65 + 0.05 = 0.7
+
+PFA: 19 * 0.7 =~ 13 pontos
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Manter de Fornecedor
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Castrar Fornecedor(Itens Referenciados: - 2 - Simples), 
+Consultar Fornecedor (Itens Referenciados: - 2 - Simples),  
+Editar Fornecedor (Itens Referenciados:  - 2 - Simples),
+Excluir Fornecedor (Itens Referenciados: - 2 - Simples)
+
+ALI: Fornecedor (Simples)
+
+4 Simples x 3
+ALI: 1 Simples x 7
+
+
+PFB: 19 pontos
+
+Somente com valor itens 7:4 Pontos e 12: 1 Ponto dos 14 itens
+
+Fator de Ajuste (FA) = 0,65 + (0.01 * NI) => 0.65 + 0.05 = 0.7
+
+PFA: 19 * 0.7 =~ 13 pontos
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Manter de Plano Tarifacao
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Castrar Fornecedor(Itens Referenciados: - 2 - Simples), 
+Consultar Fornecedor (Itens Referenciados: - 2 - Simples),  
+Editar Fornecedor (Itens Referenciados:  - 2 - Simples),
+Excluir Fornecedor (Itens Referenciados: - 2 - Simples)
+
+ALI: Fornecedor (Simples)
+
+4 Simples x 3
+ALI: 1 Simples x 7
+
+
+PFB: 19 pontos
+
+Somente com valor itens 7:4 Pontos e 12: 1 Ponto dos 14 itens
+
+Fator de Ajuste (FA) = 0,65 + (0.01 * NI) => 0.65 + 0.05 = 0.7
+
+PFA: 19 * 0.7 =~ 13 pontos
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Realizar Operacoes 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Realizar Operacoes(Itens Referenciados: - 4 - Simples)
+
+ALI: Operacao (Simples)
+AIE: Contrato, Plano Tarifacao
+
+1 Simples x 3
+ALI: 1 Simples x 7
+AIE: 2 Simples x 5
+
+PFB: 17 pontos
+
+Somente com valor itens 7:4 Pontos e 12: 1 Ponto dos 14 itens
+
+Fator de Ajuste (FA) = 0,65 + (0.01 * NI) => 0.65 + 0.05 = 0.7
+
+PFA: 17 * 0.7 =~ 12 pontos
+
+
